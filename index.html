@@ -6,117 +6,82 @@
     <title>Gym Workout Plan</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #1e1e1e;
+            background-color: black;
             color: white;
+            font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            background-color: #ff5733;
-            padding: 15px;
-            margin: 0;
         }
         .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
+            width: 80%;
+            margin: auto;
+            padding-top: 20px;
         }
-        .muscle-group {
-            background: #333;
+        h1 {
+            color: orange;
+            font-size: 32px;
+        }
+        .exercise-box {
+            display: inline-block;
+            width: 30%;
+            background-color: #222;
             padding: 15px;
+            margin: 10px;
             border-radius: 10px;
-            width: 300px;
-            box-shadow: 0 0 10px rgba(255, 87, 51, 0.8);
-            transition: 0.3s;
+            box-shadow: 0px 0px 10px red;
         }
-        .muscle-group:hover {
-            transform: scale(1.05);
+        .exercise-box h2 {
+            color: orange;
         }
-        h2 {
-            color: #ff5733;
+        .exercise-box p {
+            font-size: 18px;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin: 10px 0;
-        }
-        img {
-            width: 100%;
-            border-radius: 5px;
+        .exercise-box img {
+            width: 100px;
+            height: 100px;
             margin-top: 10px;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
 
-    <h1>📋 Gym Workout Plan 💪</h1>
-
     <div class="container">
+        <h1>🏋 Gym Workout Plan 💪</h1>
 
-        <div class="muscle-group">
+        <div class="exercise-box">
             <h2>Chest Exercises</h2>
-            <ul>
-                <li>Barbell Bench Press</li>
-                <li>Dumbbell Fly</li>
-                <li>Cable Crossover</li>
-            </ul>
-            <img src="https://www.muscleandfitness.com/wp-content/uploads/2018/10/1109-bench-press.jpg" alt="Chest Workout">
+            <p>Barbell Bench Press, Dumbbell Fly, Cable Crossover</p>
+            <img src="chest.jpg" alt="Chest Workout">
         </div>
 
-        <div class="muscle-group">
+        <div class="exercise-box">
             <h2>Back Exercises</h2>
-            <ul>
-                <li>Lat Pulldown</li>
-                <li>Seated Cable Row</li>
-                <li>Reverse Barbell Row</li>
-            </ul>
-            <img src="https://www.muscleandfitness.com/wp-content/uploads/2018/10/1109-pull-up.jpg" alt="Back Workout">
+            <p>Lat Pulldown, Seated Cable Row, Reverse Barbell Row</p>
+            <img src="back.jpg" alt="Back Workout">
         </div>
 
-        <div class="muscle-group">
+        <div class="exercise-box">
             <h2>Biceps Exercises</h2>
-            <ul>
-                <li>Dumbbell Curl</li>
-                <li>EZ Bar Curl</li>
-                <li>Hammer Curl</li>
-            </ul>
-            <img src="https://www.muscleandfitness.com/wp-content/uploads/2018/10/1109-bicep-curl.jpg" alt="Biceps Workout">
+            <p>Dumbbell Curl, EZ Bar Curl, Hammer Curl</p>
+            <img src="biceps.jpg" alt="Biceps Workout">
         </div>
 
-        <div class="muscle-group">
+        <div class="exercise-box">
             <h2>Triceps Exercises</h2>
-            <ul>
-                <li>Dips</li>
-                <li>Overhead Dumbbell Extension</li>
-                <li>Triceps Pushdown</li>
-            </ul>
-            <img src="https://www.muscleandfitness.com/wp-content/uploads/2018/10/1109-triceps-dip.jpg" alt="Triceps Workout">
+            <p>Dips, Overhead Dumbbell Extension, Triceps Pushdown</p>
+            <img src="triceps.jpg" alt="Triceps Workout">
         </div>
 
-        <div class="muscle-group">
+        <div class="exercise-box">
             <h2>Leg Exercises</h2>
-            <ul>
-                <li>Squats</li>
-                <li>Lunges</li>
-                <li>Leg Curl</li>
-            </ul>
-            <img src="https://www.muscleandfitness.com/wp-content/uploads/2018/10/1109-squat.jpg" alt="Leg Workout">
+            <p>Squats, Lunges, Leg Curl</p>
+            <img src="legs.jpg" alt="Leg Workout">
         </div>
 
-        <div class="muscle-group">
+        <div class="exercise-box">
             <h2>Forearm Exercises</h2>
-            <ul>
-                <li>Reverse Barbell Curl</li>
-                <li>Dumbbell Grip Hold</li>
-                <li>Hammer Curl for Forearms</li>
-            </ul>
-            <img src="https://www.muscleandfitness.com/wp-content/uploads/2018/10/1109-hammer-curl.jpg" alt="Forearm Workout">
+            <p>Reverse Barbell Curl, Dumbbell Grip Hold, Hammer Curl for Forearms</p>
+            <img src="forearm.jpg" alt="Forearm Workout">
         </div>
 
     </div>
